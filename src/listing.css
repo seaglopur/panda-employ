@@ -1,0 +1,92 @@
+.list-group-item img {
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #aaa;
+}
+
+.list-group-item {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group {
+    border-radius: 25px !important;
+}
+
+.list-candidates .list-group-item:first-child, .list-vacancies .list-group-item:first-child {border-top-left-radius: 25px;border-top-right-radius: 25px}
+.list-candidates .list-group-item:last-child, .list-vacancies .list-group-item:last-child {border-radius: 25px;}
+
+.listing-container {
+    max-width: 1024px;
+    display: block;
+    margin: 0 auto;
+}
+
+.vacancies-container > h3 {
+    margin: 20px 0;
+}
+
+.info-container > h4 {
+    margin: 2px 0;
+}
+
+.list-group-item .info-container .title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+
+.list-group-item .info-container .institution{
+    font-size: 18px;
+    font-weight: 500;
+    color: #45d2d0;
+}
+
+
+.list-group-item .info-container .location{
+    font-size: 18px;
+    font-weight: 500;
+    color: #aaa;
+}
+
+
+.list-group-item .info-container .recent{
+    font-size: 18px;
+    font-weight: 500;
+    color: #64c552;
+}
+
+.more-jobs, .more-candidates {
+    color: #64c552;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.list-vacancies, .list-candidates {
+    -webkit-box-shadow: 0px 0px 27px -2px rgba(0,0,0,0.40);
+    -moz-box-shadow: 0px 0px 27px -2px rgba(0,0,0,0.40);
+    box-shadow: 0px 0px 27px -2px rgba(0,0,0,0.40);
+    display: block;
+    margin: 30px auto;
+    border-radius: 25px;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.top-buttons button {
+    width: 250px;
+}
+
+.search-bar input {
+    width: 100% !important;
+}
