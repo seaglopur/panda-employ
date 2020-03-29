@@ -1,0 +1,19 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+}
+
+.footer-container > h4 {
+    color: #aaa;
+    font-size: 18px;
+    margin: 0 0 0 10px;
+}
+
+.footer-container > img {
+    filter: invert(0.6);
+}

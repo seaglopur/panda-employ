@@ -1,0 +1,23 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.rightside-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rightside-icons img {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.rightside-icons .menu {
+    filter: brightness(0) saturate(100%) invert(69%) sepia(54%) saturate(513%) hue-rotate(62deg) brightness(90%) contrast(82%);
+}
